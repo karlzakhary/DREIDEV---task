@@ -1,0 +1,12 @@
+.items {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.items_single_item {
+    list-style: none;
+    width: 32%;
+}
