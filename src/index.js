@@ -18,7 +18,6 @@ let store = createStore(
     {
         items: itemsData // Our locally saved database
     },
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() // for debugging
 );
 
 render(

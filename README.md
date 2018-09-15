@@ -23,4 +23,4 @@ npm start
 ```
 
 #Note
-UI is not that good, but the app is completely functional and adheres to the required logic
+UI is not that good, but the app is completely functional and adheres to the required logic# DREIDEV---task
