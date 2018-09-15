@@ -43,7 +43,7 @@ class Item extends Component {
                             onClick={this.addClick}
                         > + </button>
                         <button
-                            className={isInCart ? 'button_remove' :'hidden'}
+                            className={isInCart ? 'button_remove' :'invisible_button'}
                             onClick={this.removeClick}
                         > - </button>
                     </div>

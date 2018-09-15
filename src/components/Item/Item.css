@@ -3,6 +3,15 @@
     overflow: auto;
 }
 
+.item_thumbnail {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.invisible_button {
+    visibility: hidden;
+}
+
 .item_price {
     display: inline-block;
     line-height: 34px;
