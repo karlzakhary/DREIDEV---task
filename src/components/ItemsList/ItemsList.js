@@ -9,7 +9,12 @@ const ItemsList = ({ items }) => {
             <ul className="items">
               {items.map(item => (
                   <li key={item.id} className="items_single_item">
-                    <Item {...item} />
+                    <Item id = {item.id}
+                          title = {item.title}
+                          price = {item.price}
+                          image = {item.image}
+                          description = {item.description}
+                          isInCart = {item.isInCart} />
                   </li>
               ))}
             </ul>
