@@ -2,19 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class Item extends Component {
-    /*
-    handleClick = () => {
-        const { id, cartAdd } = this.props;
-
-        // if (isInCart) {
-        //     removeFromCart(id);
-        // } else {
-        //     addToCart(id);
-        // }
-        cartAdd(id);
-    };
-    */
-
+    
     addClick = () => {
         const { id , cartAdd} = this.props;
         cartAdd(id)
